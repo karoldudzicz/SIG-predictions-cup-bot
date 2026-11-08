@@ -1,0 +1,45 @@
+# systemd unit for the Predictions Cup bot. Install: see deploy/DEPLOY.md.
+# Assumes user `bot` and the repo at /opt/prediction-cup-bot - change both if yours differ.
+
+[Unit]
+Description=Predictions Cup trading bot
+After=network-online.target time-sync.target
+Wants=network-online.target
+# Give up (and stay down) after 10 crashes within 10 minutes - something is badly wrong.
+StartLimitIntervalSec=600
+StartLimitBurst=10
+
+[Service]
+# main.py sends READY=1 after startup reconciliation, WATCHDOG=1 after every
+# successful cycle, and STOPPING=1 on shutdown.
+Type=notify
+NotifyAccess=main
+User=bot
+Group=bot
+WorkingDirectory=/opt/prediction-cup-bot
+ExecStart=/opt/prediction-cup-bot/.venv/bin/python main.py
+
+# Crash -> restart after 10 s. Exit code 2 = auth / terms problem that a restart
+# cannot fix (e.g. TERMS_NOT_ACKNOWLEDGED: new terms must be accepted on the website) ->
+# stay down, a human must act.
+Restart=on-failure
+RestartSec=10
+RestartPreventExitStatus=2
+
+# Hang detection: no WATCHDOG=1 for 5 minutes (normal: every ~15 s) -> kill + restart.
+WatchdogSec=300
+
+# Graceful stop: SIGTERM lets the current cycle finish (<= 120 s timeout), then
+# all open orders are cancelled (<= 30 s). Only after this does systemd SIGKILL.
+KillSignal=SIGTERM
+TimeoutStopSec=180
+
+# Hardening: read-only system, writable only where the bot keeps state.
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+ReadWritePaths=/opt/prediction-cup-bot/logs /opt/prediction-cup-bot/data
+
+[Install]
+WantedBy=multi-user.target

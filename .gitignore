@@ -1,0 +1,38 @@
+# Secrets: every env file except the template
+.env
+.env.*
+!.env.example
+
+# Runtime output and SIG data (journals, tape, books, fills, research CSV / JSONL, logs)
+data/
+logs/
+*.log
+heartbeat.json
+
+# Material from SIG / the platform that is not ours to publish
+api-1*.json
+*[Hh]oldings*
+
+# Deploy artifacts (DEPLOY.md builds bot.tar.gz in the repo folder)
+*.tar.gz
+*.zip
+
+# Python / tooling
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

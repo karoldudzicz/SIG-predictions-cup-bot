@@ -1,0 +1,2521 @@
+{
+ "inherit": {
+  "cycles": [
+   {
+    "batches": [
+     {
+      "orders": [
+       {
+        "action": "buy",
+        "exchange_id": "1",
+        "expiration_date": "2027-01-15T08:02:00.000Z",
+        "price": 0.455,
+        "quantity": 100,
+        "side": "yes",
+        "tournament_id": "tid"
+       },
+       {
+        "action": "buy",
+        "exchange_id": "1",
+        "expiration_date": "2027-01-15T08:02:00.000Z",
+        "price": 0.455,
+        "quantity": 100,
+        "side": "no",
+        "tournament_id": "tid"
+       },
+       {
+        "action": "buy",
+        "exchange_id": "3",
+        "expiration_date": "2027-01-15T08:02:00.000Z",
+        "price": 0.455,
+        "quantity": 100,
+        "side": "yes",
+        "tournament_id": "tid"
+       },
+       {
+        "action": "buy",
+        "exchange_id": "3",
+        "expiration_date": "2027-01-15T08:02:00.000Z",
+        "price": 0.455,
+        "quantity": 100,
+        "side": "no",
+        "tournament_id": "tid"
+       },
+       {
+        "action": "buy",
+        "exchange_id": "5",
+        "expiration_date": "2027-01-15T08:02:00.000Z",
+        "price": 0.455,
+        "quantity": 100,
+        "side": "yes",
+        "tournament_id": "tid"
+       },
+       {
+        "action": "buy",
+        "exchange_id": "5",
+        "expiration_date": "2027-01-15T08:02:00.000Z",
+        "price": 0.455,
+        "quantity": 100,
+        "side": "no",
+        "tournament_id": "tid"
+       }
+      ],
+      "rank": 2
+     }
+    ],
+    "book_reads": [],
+    "cancel_alls": [],
+    "report": {
+     "blocked": {
+      "tail": 1
+     },
+     "cancels": 0,
+     "fills": 0,
+     "killed": 0,
+     "markets": 3,
+     "placed": 6,
+     "requotes": 0,
+     "skipped": null
+    },
+    "resting": [
+     [
+      "1",
+      "no",
+      0.455,
+      100
+     ],
+     [
+      "1",
+      "yes",
+      0.455,
+      100
+     ],
+     [
+      "3",
+      "no",
+      0.455,
+      100
+     ],
+     [
+      "3",
+      "yes",
+      0.455,
+      100
+     ],
+     [
+      "5",
+      "no",
+      0.455,
+      100
+     ],
+     [
+      "5",
+      "yes",
+      0.455,
+      100
+     ]
+    ]
+   },
+   {
+    "batches": [
+     {
+      "orders": [
+       {
+        "action": "buy",
+        "exchange_id": "1",
+        "expiration_date": "2027-01-15T08:02:15.000Z",
+        "price": 0.46,
+        "quantity": 100,
+        "side": "yes",
+        "tournament_id": "tid"
+       },
+       {
+        "action": "buy",
+        "exchange_id": "1",
+        "expiration_date": "2027-01-15T08:02:15.000Z",
+        "price": 0.455,
+        "quantity": 100,
+        "side": "no",
+        "tournament_id": "tid"
+       }
+      ],
+      "rank": 2
+     }
+    ],
+    "book_reads": [],
+    "cancel_alls": [
+     {
+      "exchange_id": "1",
+      "tournament_id": "tid"
+     }
+    ],
+    "report": {
+     "blocked": {
+      "tail": 1
+     },
+     "cancels": 1,
+     "fills": 0,
+     "killed": 0,
+     "markets": 3,
+     "placed": 2,
+     "requotes": 1,
+     "skipped": null
+    },
+    "resting": [
+     [
+      "1",
+      "no",
+      0.455,
+      100
+     ],
+     [
+      "1",
+      "yes",
+      0.46,
+      100
+     ],
+     [
+      "3",
+      "no",
+      0.455,
+      100
+     ],
+     [
+      "3",
+      "yes",
+      0.455,
+      100
+     ],
+     [
+      "5",
+      "no",
+      0.455,
+      100
+     ],
+     [
+      "5",
+      "yes",
+      0.455,
+      100
+     ]
+    ]
+   },
+   {
+    "batches": [],
+    "book_reads": [],
+    "cancel_alls": [],
+    "report": {
+     "blocked": {
+      "tail": 1
+     },
+     "cancels": 0,
+     "fills": 1,
+     "killed": 0,
+     "markets": 3,
+     "placed": 0,
+     "requotes": 0,
+     "skipped": null
+    },
+    "resting": [
+     [
+      "1",
+      "no",
+      0.455,
+      100
+     ],
+     [
+      "1",
+      "yes",
+      0.46,
+      100
+     ],
+     [
+      "3",
+      "no",
+      0.455,
+      100
+     ],
+     [
+      "3",
+      "yes",
+      0.455,
+      100
+     ],
+     [
+      "5",
+      "no",
+      0.455,
+      100
+     ],
+     [
+      "5",
+      "yes",
+      0.455,
+      100
+     ]
+    ]
+   },
+   {
+    "batches": [
+     {
+      "orders": [
+       {
+        "action": "buy",
+        "exchange_id": "1",
+        "expiration_date": "2027-01-15T08:02:45.000Z",
+        "price": 0.455,
+        "quantity": 100,
+        "side": "yes",
+        "tournament_id": "tid"
+       },
+       {
+        "action": "buy",
+        "exchange_id": "1",
+        "expiration_date": "2027-01-15T08:02:45.000Z",
+        "price": 0.455,
+        "quantity": 100,
+        "side": "no",
+        "tournament_id": "tid"
+       }
+      ],
+      "rank": 2
+     }
+    ],
+    "book_reads": [],
+    "cancel_alls": [
+     {
+      "exchange_id": "3",
+      "tournament_id": "tid"
+     },
+     {
+      "exchange_id": "1",
+      "tournament_id": "tid"
+     }
+    ],
+    "report": {
+     "blocked": {
+      "tail": 1
+     },
+     "cancels": 2,
+     "fills": 0,
+     "killed": 1,
+     "markets": 2,
+     "placed": 2,
+     "requotes": 1,
+     "skipped": null
+    },
+    "resting": [
+     [
+      "1",
+      "no",
+      0.455,
+      100
+     ],
+     [
+      "1",
+      "yes",
+      0.455,
+      100
+     ],
+     [
+      "5",
+      "no",
+      0.455,
+      100
+     ],
+     [
+      "5",
+      "yes",
+      0.455,
+      100
+     ]
+    ]
+   },
+   {
+    "batches": [
+     {
+      "orders": [
+       {
+        "action": "buy",
+        "exchange_id": "1",
+        "expiration_date": "2027-01-15T08:03:00.000Z",
+        "price": 0.455,
+        "quantity": 100,
+        "side": "no",
+        "tournament_id": "tid"
+       }
+      ],
+      "rank": 2
+     }
+    ],
+    "book_reads": [],
+    "cancel_alls": [
+     {
+      "exchange_id": "5",
+      "tournament_id": "tid"
+     },
+     {
+      "exchange_id": "1",
+      "tournament_id": "tid"
+     }
+    ],
+    "report": {
+     "blocked": {
+      "delta": 1,
+      "jump": 1,
+      "tail": 1
+     },
+     "cancels": 2,
+     "fills": 0,
+     "killed": 0,
+     "markets": 1,
+     "placed": 1,
+     "requotes": 1,
+     "skipped": null
+    },
+    "resting": [
+     [
+      "1",
+      "no",
+      0.455,
+      100
+     ]
+    ]
+   },
+   {
+    "batches": [],
+    "book_reads": [],
+    "cancel_alls": [],
+    "report": {
+     "blocked": {
+      "delta": 1,
+      "tail": 1
+     },
+     "cancels": 0,
+     "fills": 0,
+     "killed": 0,
+     "markets": 1,
+     "placed": 0,
+     "requotes": 0,
+     "skipped": null
+    },
+    "resting": [
+     [
+      "1",
+      "no",
+      0.455,
+      100
+     ]
+    ]
+   },
+   {
+    "batches": [
+     {
+      "orders": [
+       {
+        "action": "buy",
+        "exchange_id": "1",
+        "expiration_date": "2027-01-15T08:05:20.000Z",
+        "price": 0.455,
+        "quantity": 100,
+        "side": "no",
+        "tournament_id": "tid"
+       }
+      ],
+      "rank": 2
+     }
+    ],
+    "book_reads": [],
+    "cancel_alls": [
+     {
+      "exchange_id": "1",
+      "tournament_id": "tid"
+     }
+    ],
+    "report": {
+     "blocked": {
+      "delta": 1,
+      "tail": 1
+     },
+     "cancels": 1,
+     "fills": 0,
+     "killed": 0,
+     "markets": 1,
+     "placed": 1,
+     "requotes": 1,
+     "skipped": null
+    },
+    "resting": [
+     [
+      "1",
+      "no",
+      0.455,
+      100
+     ]
+    ]
+   }
+  ],
+  "journal": [
+   {
+    "edge": 0.015,
+    "event": "intent",
+    "exchange_id": "1",
+    "fair": 0.5,
+    "price": 0.455,
+    "quantity": 100,
+    "side": "yes",
+    "skew": 0.0
+   },
+   {
+    "edge": 0.015,
+    "event": "intent",
+    "exchange_id": "1",
+    "fair": 0.5,
+    "price": 0.455,
+    "quantity": 100,
+    "side": "no",
+    "skew": 0.0
+   },
+   {
+    "edge": 0.015,
+    "event": "intent",
+    "exchange_id": "3",
+    "fair": 0.5,
+    "price": 0.455,
+    "quantity": 100,
+    "side": "yes",
+    "skew": 0.0
+   },
+   {
+    "edge": 0.015,
+    "event": "intent",
+    "exchange_id": "3",
+    "fair": 0.5,
+    "price": 0.455,
+    "quantity": 100,
+    "side": "no",
+    "skew": 0.0
+   },
+   {
+    "edge": 0.015,
+    "event": "intent",
+    "exchange_id": "5",
+    "fair": 0.5,
+    "price": 0.455,
+    "quantity": 100,
+    "side": "yes",
+    "skew": 0.0
+   },
+   {
+    "edge": 0.015,
+    "event": "intent",
+    "exchange_id": "5",
+    "fair": 0.5,
+    "price": 0.455,
+    "quantity": 100,
+    "side": "no",
+    "skew": 0.0
+   },
+   {
+    "edge": 0.015,
+    "event": "placement",
+    "exchange_id": "1",
+    "fair": 0.5,
+    "order_id": "501",
+    "price": 0.455,
+    "quantity": 100,
+    "side": "yes",
+    "skew": 0.0
+   },
+   {
+    "edge": 0.015,
+    "event": "placement",
+    "exchange_id": "1",
+    "fair": 0.5,
+    "order_id": "502",
+    "price": 0.455,
+    "quantity": 100,
+    "side": "no",
+    "skew": 0.0
+   },
+   {
+    "edge": 0.015,
+    "event": "placement",
+    "exchange_id": "3",
+    "fair": 0.5,
+    "order_id": "503",
+    "price": 0.455,
+    "quantity": 100,
+    "side": "yes",
+    "skew": 0.0
+   },
+   {
+    "edge": 0.015,
+    "event": "placement",
+    "exchange_id": "3",
+    "fair": 0.5,
+    "order_id": "504",
+    "price": 0.455,
+    "quantity": 100,
+    "side": "no",
+    "skew": 0.0
+   },
+   {
+    "edge": 0.015,
+    "event": "placement",
+    "exchange_id": "5",
+    "fair": 0.5,
+    "order_id": "505",
+    "price": 0.455,
+    "quantity": 100,
+    "side": "yes",
+    "skew": 0.0
+   },
+   {
+    "edge": 0.015,
+    "event": "placement",
+    "exchange_id": "5",
+    "fair": 0.5,
+    "order_id": "506",
+    "price": 0.455,
+    "quantity": 100,
+    "side": "no",
+    "skew": 0.0
+   },
+   {
+    "event": "requote",
+    "exchange_id": "1",
+    "no": 0.455,
+    "resting": {
+     "no": 0.455,
+     "yes": 0.455
+    },
+    "yes": 0.46
+   },
+   {
+    "edge": 0.015,
+    "event": "intent",
+    "exchange_id": "1",
+    "fair": 0.5,
+    "price": 0.46,
+    "quantity": 100,
+    "side": "yes",
+    "skew": 0.0
+   },
+   {
+    "edge": 0.015,
+    "event": "intent",
+    "exchange_id": "1",
+    "fair": 0.5,
+    "price": 0.455,
+    "quantity": 100,
+    "side": "no",
+    "skew": 0.0
+   },
+   {
+    "edge": 0.015,
+    "event": "placement",
+    "exchange_id": "1",
+    "fair": 0.5,
+    "order_id": "507",
+    "price": 0.46,
+    "quantity": 100,
+    "side": "yes",
+    "skew": 0.0
+   },
+   {
+    "edge": 0.015,
+    "event": "placement",
+    "exchange_id": "1",
+    "fair": 0.5,
+    "order_id": "508",
+    "price": 0.455,
+    "quantity": 100,
+    "side": "no",
+    "skew": 0.0
+   },
+   {
+    "event": "fill",
+    "exchange_id": "1",
+    "fill_id": "fill-1",
+    "net_shares": 60.0,
+    "order_id": "507",
+    "price": 0.455,
+    "quantity": 60.0,
+    "side": "yes"
+   },
+   {
+    "block_s": 3600,
+    "event": "kill",
+    "exchange_id": "3"
+   },
+   {
+    "event": "requote",
+    "exchange_id": "1",
+    "no": 0.455,
+    "resting": {
+     "no": 0.455,
+     "yes": 0.46
+    },
+    "yes": 0.455
+   },
+   {
+    "edge": 0.015,
+    "event": "intent",
+    "exchange_id": "1",
+    "fair": 0.5,
+    "price": 0.455,
+    "quantity": 100,
+    "side": "yes",
+    "skew": 0.0
+   },
+   {
+    "edge": 0.015,
+    "event": "intent",
+    "exchange_id": "1",
+    "fair": 0.5,
+    "price": 0.455,
+    "quantity": 100,
+    "side": "no",
+    "skew": 0.0
+   },
+   {
+    "edge": 0.015,
+    "event": "placement",
+    "exchange_id": "1",
+    "fair": 0.5,
+    "order_id": "509",
+    "price": 0.455,
+    "quantity": 100,
+    "side": "yes",
+    "skew": 0.0
+   },
+   {
+    "edge": 0.015,
+    "event": "placement",
+    "exchange_id": "1",
+    "fair": 0.5,
+    "order_id": "510",
+    "price": 0.455,
+    "quantity": 100,
+    "side": "no",
+    "skew": 0.0
+   },
+   {
+    "block_s": 600,
+    "event": "jump",
+    "exchange_id": "5",
+    "fair": 0.56
+   },
+   {
+    "event": "withdraw",
+    "exchange_id": "5",
+    "reason": "blocked"
+   },
+   {
+    "event": "requote",
+    "exchange_id": "1",
+    "no": 0.455,
+    "resting": {
+     "no": 0.455,
+     "yes": 0.455
+    },
+    "yes": null
+   },
+   {
+    "edge": 0.015,
+    "event": "intent",
+    "exchange_id": "1",
+    "fair": 0.5,
+    "price": 0.455,
+    "quantity": 100,
+    "side": "no",
+    "skew": 0.02
+   },
+   {
+    "edge": 0.015,
+    "event": "placement",
+    "exchange_id": "1",
+    "fair": 0.5,
+    "order_id": "511",
+    "price": 0.455,
+    "quantity": 100,
+    "side": "no",
+    "skew": 0.02
+   },
+   {
+    "event": "requote",
+    "exchange_id": "1",
+    "no": 0.455,
+    "resting": {
+     "no": 0.455
+    },
+    "yes": null
+   },
+   {
+    "edge": 0.015,
+    "event": "intent",
+    "exchange_id": "1",
+    "fair": 0.5,
+    "price": 0.455,
+    "quantity": 100,
+    "side": "no",
+    "skew": 0.02
+   },
+   {
+    "edge": 0.015,
+    "event": "placement",
+    "exchange_id": "1",
+    "fair": 0.5,
+    "order_id": "512",
+    "price": 0.455,
+    "quantity": 100,
+    "side": "no",
+    "skew": 0.02
+   }
+  ],
+  "logs": [
+   {
+    "extra": {
+     "allowlist": null,
+     "dry_run_mode": "inherit",
+     "max_markets": 5,
+     "open_positions": 0,
+     "size": 100,
+     "virtual": false
+    },
+    "level": "INFO",
+    "message": "Quoter enabled"
+   },
+   {
+    "extra": {
+     "exchange_id": "2",
+     "fair": 0.97,
+     "reason": "tail"
+    },
+    "level": "DEBUG",
+    "message": "Quoter market skipped"
+   },
+   {
+    "extra": {
+     "exchange_id": "4",
+     "fair": 0.5,
+     "reason": "other spread 2 ticks < 3"
+    },
+    "level": "DEBUG",
+    "message": "Quoter market skipped"
+   },
+   {
+    "extra": {
+     "bid_no": 0.455,
+     "bid_yes": 0.455,
+     "edge": 0.015,
+     "exchange_id": "1",
+     "fair": 0.5,
+     "other_yes_ask": 0.55,
+     "other_yes_bid": 0.45,
+     "race_delta": 0.0,
+     "reason": null,
+     "skew": 0.0
+    },
+    "level": "DEBUG",
+    "message": "Quoter market"
+   },
+   {
+    "extra": {
+     "bid_no": 0.455,
+     "bid_yes": 0.455,
+     "edge": 0.015,
+     "exchange_id": "3",
+     "fair": 0.5,
+     "other_yes_ask": 0.55,
+     "other_yes_bid": 0.45,
+     "race_delta": 0.0,
+     "reason": null,
+     "skew": 0.0
+    },
+    "level": "DEBUG",
+    "message": "Quoter market"
+   },
+   {
+    "extra": {
+     "bid_no": 0.455,
+     "bid_yes": 0.455,
+     "edge": 0.015,
+     "exchange_id": "5",
+     "fair": 0.5,
+     "other_yes_ask": 0.55,
+     "other_yes_bid": 0.45,
+     "race_delta": 0.0,
+     "reason": null,
+     "skew": 0.0
+    },
+    "level": "DEBUG",
+    "message": "Quoter market"
+   },
+   {
+    "extra": {
+     "active_quotes": 6,
+     "blocked_sides": {},
+     "cancels": 0,
+     "cycles": 1,
+     "fills": 0,
+     "interval_s": 1000.0,
+     "killed": 0,
+     "markets": [
+      "1",
+      "3",
+      "5"
+     ],
+     "placed": 6,
+     "requotes": 0,
+     "skipped_markets": {
+      "other spread 2 ticks < 3": 1,
+      "tail": 1
+     },
+     "virtual": false
+    },
+    "level": "INFO",
+    "message": "Quoter summary"
+   },
+   {
+    "extra": {
+     "exchange_id": "2",
+     "fair": 0.97,
+     "reason": "tail"
+    },
+    "level": "DEBUG",
+    "message": "Quoter market skipped"
+   },
+   {
+    "extra": {
+     "exchange_id": "4",
+     "fair": 0.5,
+     "reason": "other spread 2 ticks < 3"
+    },
+    "level": "DEBUG",
+    "message": "Quoter market skipped"
+   },
+   {
+    "extra": {
+     "bid_no": 0.455,
+     "bid_yes": 0.46,
+     "edge": 0.015,
+     "exchange_id": "1",
+     "fair": 0.5,
+     "other_yes_ask": 0.55,
+     "other_yes_bid": 0.455,
+     "race_delta": 0.0,
+     "reason": null,
+     "skew": 0.0
+    },
+    "level": "DEBUG",
+    "message": "Quoter market"
+   },
+   {
+    "extra": {
+     "bid_no": 0.455,
+     "bid_yes": 0.455,
+     "edge": 0.015,
+     "exchange_id": "3",
+     "fair": 0.5,
+     "other_yes_ask": 0.55,
+     "other_yes_bid": 0.45,
+     "race_delta": 0.0,
+     "reason": null,
+     "skew": 0.0
+    },
+    "level": "DEBUG",
+    "message": "Quoter market"
+   },
+   {
+    "extra": {
+     "bid_no": 0.455,
+     "bid_yes": 0.455,
+     "edge": 0.015,
+     "exchange_id": "5",
+     "fair": 0.5,
+     "other_yes_ask": 0.55,
+     "other_yes_bid": 0.45,
+     "race_delta": 0.0,
+     "reason": null,
+     "skew": 0.0
+    },
+    "level": "DEBUG",
+    "message": "Quoter market"
+   },
+   {
+    "extra": {
+     "exchange_id": "2",
+     "fair": 0.97,
+     "reason": "tail"
+    },
+    "level": "DEBUG",
+    "message": "Quoter market skipped"
+   },
+   {
+    "extra": {
+     "exchange_id": "4",
+     "fair": 0.5,
+     "reason": "other spread 2 ticks < 3"
+    },
+    "level": "DEBUG",
+    "message": "Quoter market skipped"
+   },
+   {
+    "extra": {
+     "bid_no": 0.455,
+     "bid_yes": 0.46,
+     "edge": 0.015,
+     "exchange_id": "1",
+     "fair": 0.5,
+     "other_yes_ask": 0.55,
+     "other_yes_bid": 0.455,
+     "race_delta": 0.0,
+     "reason": null,
+     "skew": 0.0
+    },
+    "level": "DEBUG",
+    "message": "Quoter market"
+   },
+   {
+    "extra": {
+     "bid_no": 0.455,
+     "bid_yes": 0.455,
+     "edge": 0.015,
+     "exchange_id": "3",
+     "fair": 0.5,
+     "other_yes_ask": 0.55,
+     "other_yes_bid": 0.45,
+     "race_delta": 0.0,
+     "reason": null,
+     "skew": 0.0
+    },
+    "level": "DEBUG",
+    "message": "Quoter market"
+   },
+   {
+    "extra": {
+     "bid_no": 0.455,
+     "bid_yes": 0.455,
+     "edge": 0.015,
+     "exchange_id": "5",
+     "fair": 0.5,
+     "other_yes_ask": 0.55,
+     "other_yes_bid": 0.45,
+     "race_delta": 0.0,
+     "reason": null,
+     "skew": 0.0
+    },
+    "level": "DEBUG",
+    "message": "Quoter market"
+   },
+   {
+    "extra": {
+     "block_s": 3600,
+     "exchange_id": "3",
+     "fills": 3,
+     "threshold_ticks": -2.0
+    },
+    "level": "WARNING",
+    "message": "Quoter market killed: consecutive adverse markouts"
+   },
+   {
+    "extra": {
+     "exchange_id": "2",
+     "fair": 0.97,
+     "reason": "tail"
+    },
+    "level": "DEBUG",
+    "message": "Quoter market skipped"
+   },
+   {
+    "extra": {
+     "exchange_id": "3",
+     "fair": 0.5,
+     "reason": "blocked"
+    },
+    "level": "DEBUG",
+    "message": "Quoter market skipped"
+   },
+   {
+    "extra": {
+     "exchange_id": "4",
+     "fair": 0.5,
+     "reason": "other spread 2 ticks < 3"
+    },
+    "level": "DEBUG",
+    "message": "Quoter market skipped"
+   },
+   {
+    "extra": {
+     "bid_no": 0.455,
+     "bid_yes": 0.455,
+     "edge": 0.015,
+     "exchange_id": "1",
+     "fair": 0.5,
+     "other_yes_ask": 0.55,
+     "other_yes_bid": 0.45,
+     "race_delta": 0.0,
+     "reason": null,
+     "skew": 0.0
+    },
+    "level": "DEBUG",
+    "message": "Quoter market"
+   },
+   {
+    "extra": {
+     "bid_no": 0.455,
+     "bid_yes": 0.455,
+     "edge": 0.015,
+     "exchange_id": "5",
+     "fair": 0.5,
+     "other_yes_ask": 0.55,
+     "other_yes_bid": 0.45,
+     "race_delta": 0.0,
+     "reason": null,
+     "skew": 0.0
+    },
+    "level": "DEBUG",
+    "message": "Quoter market"
+   },
+   {
+    "extra": {
+     "block_s": 600,
+     "exchange_id": "5",
+     "fair": 0.56,
+     "history": [
+      [
+       1800000030.0,
+       0.5
+      ],
+      [
+       1800000045.0,
+       0.5
+      ]
+     ]
+    },
+    "level": "INFO",
+    "message": "Quoter jump guard"
+   },
+   {
+    "extra": {
+     "exchange_id": "2",
+     "fair": 0.97,
+     "reason": "tail"
+    },
+    "level": "DEBUG",
+    "message": "Quoter market skipped"
+   },
+   {
+    "extra": {
+     "exchange_id": "3",
+     "fair": 0.5,
+     "reason": "blocked"
+    },
+    "level": "DEBUG",
+    "message": "Quoter market skipped"
+   },
+   {
+    "extra": {
+     "exchange_id": "4",
+     "fair": 0.5,
+     "reason": "other spread 2 ticks < 3"
+    },
+    "level": "DEBUG",
+    "message": "Quoter market skipped"
+   },
+   {
+    "extra": {
+     "exchange_id": "5",
+     "fair": 0.56,
+     "reason": "blocked"
+    },
+    "level": "DEBUG",
+    "message": "Quoter market skipped"
+   },
+   {
+    "extra": {
+     "exchange_id": "5",
+     "reason": "blocked"
+    },
+    "level": "INFO",
+    "message": "Quoter quotes withdrawn"
+   },
+   {
+    "extra": {
+     "bid_no": 0.455,
+     "bid_yes": null,
+     "edge": 0.015,
+     "exchange_id": "1",
+     "fair": 0.5,
+     "other_yes_ask": 0.55,
+     "other_yes_bid": 0.45,
+     "race_delta": 400.0,
+     "reason": "delta cap: yes not quoted",
+     "skew": 0.02
+    },
+    "level": "DEBUG",
+    "message": "Quoter market"
+   },
+   {
+    "extra": {
+     "active_quotes": 1,
+     "blocked_sides": {
+      "delta": 1
+     },
+     "cancels": 5,
+     "cycles": 4,
+     "fills": 1,
+     "interval_s": 60.0,
+     "killed": 1,
+     "markets": [
+      "1"
+     ],
+     "placed": 5,
+     "requotes": 3,
+     "skipped_markets": {
+      "blocked": 2,
+      "other spread 2 ticks < 3": 1,
+      "tail": 1
+     },
+     "virtual": false
+    },
+    "level": "INFO",
+    "message": "Quoter summary"
+   },
+   {
+    "extra": {
+     "exchange_id": "2",
+     "fair": 0.97,
+     "reason": "tail"
+    },
+    "level": "DEBUG",
+    "message": "Quoter market skipped"
+   },
+   {
+    "extra": {
+     "exchange_id": "3",
+     "fair": 0.5,
+     "reason": "blocked"
+    },
+    "level": "DEBUG",
+    "message": "Quoter market skipped"
+   },
+   {
+    "extra": {
+     "exchange_id": "4",
+     "fair": 0.5,
+     "reason": "other spread 2 ticks < 3"
+    },
+    "level": "DEBUG",
+    "message": "Quoter market skipped"
+   },
+   {
+    "extra": {
+     "exchange_id": "5",
+     "fair": 0.56,
+     "reason": "blocked"
+    },
+    "level": "DEBUG",
+    "message": "Quoter market skipped"
+   },
+   {
+    "extra": {
+     "bid_no": 0.455,
+     "bid_yes": null,
+     "edge": 0.015,
+     "exchange_id": "1",
+     "fair": 0.5,
+     "other_yes_ask": 0.55,
+     "other_yes_bid": 0.45,
+     "race_delta": 400.0,
+     "reason": "delta cap: yes not quoted",
+     "skew": 0.02
+    },
+    "level": "DEBUG",
+    "message": "Quoter market"
+   },
+   {
+    "extra": {
+     "exchange_id": "2",
+     "fair": 0.97,
+     "reason": "tail"
+    },
+    "level": "DEBUG",
+    "message": "Quoter market skipped"
+   },
+   {
+    "extra": {
+     "exchange_id": "3",
+     "fair": 0.5,
+     "reason": "blocked"
+    },
+    "level": "DEBUG",
+    "message": "Quoter market skipped"
+   },
+   {
+    "extra": {
+     "exchange_id": "4",
+     "fair": 0.5,
+     "reason": "other spread 2 ticks < 3"
+    },
+    "level": "DEBUG",
+    "message": "Quoter market skipped"
+   },
+   {
+    "extra": {
+     "exchange_id": "5",
+     "fair": 0.5,
+     "reason": "blocked"
+    },
+    "level": "DEBUG",
+    "message": "Quoter market skipped"
+   },
+   {
+    "extra": {
+     "bid_no": 0.455,
+     "bid_yes": null,
+     "edge": 0.015,
+     "exchange_id": "1",
+     "fair": 0.5,
+     "other_yes_ask": 0.55,
+     "other_yes_bid": 0.45,
+     "race_delta": 400.0,
+     "reason": "delta cap: yes not quoted",
+     "skew": 0.02
+    },
+    "level": "DEBUG",
+    "message": "Quoter market"
+   },
+   {
+    "extra": {
+     "active_quotes": 1,
+     "blocked_sides": {
+      "delta": 2
+     },
+     "cancels": 1,
+     "cycles": 2,
+     "fills": 0,
+     "interval_s": 140.0,
+     "killed": 0,
+     "markets": [
+      "1"
+     ],
+     "placed": 1,
+     "requotes": 1,
+     "skipped_markets": {
+      "blocked": 2,
+      "other spread 2 ticks < 3": 1,
+      "tail": 1
+     },
+     "virtual": false
+    },
+    "level": "INFO",
+    "message": "Quoter summary"
+   }
+  ],
+  "positions": {
+   "1": {
+    "avg_yes": 0.455,
+    "exchange_id": "1",
+    "realized": 0.0,
+    "shares": 60.0
+   }
+  }
+ },
+ "true": {
+  "cycles": [
+   {
+    "batches": [],
+    "book_reads": [],
+    "cancel_alls": [],
+    "report": {
+     "blocked": {
+      "tail": 1
+     },
+     "cancels": 0,
+     "fills": 0,
+     "killed": 0,
+     "markets": 3,
+     "placed": 0,
+     "requotes": 0,
+     "skipped": null
+    },
+    "resting": [
+     [
+      "1",
+      "no",
+      0.455,
+      100
+     ],
+     [
+      "1",
+      "yes",
+      0.455,
+      100
+     ],
+     [
+      "3",
+      "no",
+      0.455,
+      100
+     ],
+     [
+      "3",
+      "yes",
+      0.455,
+      100
+     ],
+     [
+      "5",
+      "no",
+      0.455,
+      100
+     ],
+     [
+      "5",
+      "yes",
+      0.455,
+      100
+     ]
+    ]
+   },
+   {
+    "batches": [],
+    "book_reads": [],
+    "cancel_alls": [],
+    "report": {
+     "blocked": {
+      "tail": 1
+     },
+     "cancels": 1,
+     "fills": 0,
+     "killed": 0,
+     "markets": 3,
+     "placed": 0,
+     "requotes": 1,
+     "skipped": null
+    },
+    "resting": [
+     [
+      "1",
+      "no",
+      0.455,
+      100
+     ],
+     [
+      "1",
+      "yes",
+      0.46,
+      100
+     ],
+     [
+      "3",
+      "no",
+      0.455,
+      100
+     ],
+     [
+      "3",
+      "yes",
+      0.455,
+      100
+     ],
+     [
+      "5",
+      "no",
+      0.455,
+      100
+     ],
+     [
+      "5",
+      "yes",
+      0.455,
+      100
+     ]
+    ]
+   },
+   {
+    "batches": [],
+    "book_reads": [],
+    "cancel_alls": [],
+    "report": {
+     "blocked": {
+      "tail": 1
+     },
+     "cancels": 0,
+     "fills": 1,
+     "killed": 0,
+     "markets": 3,
+     "placed": 0,
+     "requotes": 0,
+     "skipped": null
+    },
+    "resting": [
+     [
+      "1",
+      "no",
+      0.455,
+      100
+     ],
+     [
+      "1",
+      "yes",
+      0.46,
+      100
+     ],
+     [
+      "3",
+      "no",
+      0.455,
+      100
+     ],
+     [
+      "3",
+      "yes",
+      0.455,
+      100
+     ],
+     [
+      "5",
+      "no",
+      0.455,
+      100
+     ],
+     [
+      "5",
+      "yes",
+      0.455,
+      100
+     ]
+    ]
+   },
+   {
+    "batches": [],
+    "book_reads": [],
+    "cancel_alls": [],
+    "report": {
+     "blocked": {
+      "tail": 1
+     },
+     "cancels": 2,
+     "fills": 0,
+     "killed": 1,
+     "markets": 2,
+     "placed": 0,
+     "requotes": 1,
+     "skipped": null
+    },
+    "resting": [
+     [
+      "1",
+      "no",
+      0.455,
+      100
+     ],
+     [
+      "1",
+      "yes",
+      0.455,
+      100
+     ],
+     [
+      "5",
+      "no",
+      0.455,
+      100
+     ],
+     [
+      "5",
+      "yes",
+      0.455,
+      100
+     ]
+    ]
+   },
+   {
+    "batches": [],
+    "book_reads": [],
+    "cancel_alls": [],
+    "report": {
+     "blocked": {
+      "delta": 1,
+      "jump": 1,
+      "tail": 1
+     },
+     "cancels": 2,
+     "fills": 0,
+     "killed": 0,
+     "markets": 1,
+     "placed": 0,
+     "requotes": 1,
+     "skipped": null
+    },
+    "resting": [
+     [
+      "1",
+      "no",
+      0.455,
+      100
+     ]
+    ]
+   },
+   {
+    "batches": [],
+    "book_reads": [],
+    "cancel_alls": [],
+    "report": {
+     "blocked": {
+      "delta": 1,
+      "tail": 1
+     },
+     "cancels": 0,
+     "fills": 0,
+     "killed": 0,
+     "markets": 1,
+     "placed": 0,
+     "requotes": 0,
+     "skipped": null
+    },
+    "resting": [
+     [
+      "1",
+      "no",
+      0.455,
+      100
+     ]
+    ]
+   },
+   {
+    "batches": [],
+    "book_reads": [],
+    "cancel_alls": [],
+    "report": {
+     "blocked": {
+      "delta": 1,
+      "tail": 1
+     },
+     "cancels": 1,
+     "fills": 0,
+     "killed": 0,
+     "markets": 1,
+     "placed": 0,
+     "requotes": 1,
+     "skipped": null
+    },
+    "resting": [
+     [
+      "1",
+      "no",
+      0.455,
+      100
+     ]
+    ]
+   }
+  ],
+  "journal": [
+   {
+    "edge": 0.015,
+    "event": "intent",
+    "exchange_id": "1",
+    "fair": 0.5,
+    "price": 0.455,
+    "quantity": 100,
+    "side": "yes",
+    "skew": 0.0
+   },
+   {
+    "edge": 0.015,
+    "event": "intent",
+    "exchange_id": "1",
+    "fair": 0.5,
+    "price": 0.455,
+    "quantity": 100,
+    "side": "no",
+    "skew": 0.0
+   },
+   {
+    "edge": 0.015,
+    "event": "intent",
+    "exchange_id": "3",
+    "fair": 0.5,
+    "price": 0.455,
+    "quantity": 100,
+    "side": "yes",
+    "skew": 0.0
+   },
+   {
+    "edge": 0.015,
+    "event": "intent",
+    "exchange_id": "3",
+    "fair": 0.5,
+    "price": 0.455,
+    "quantity": 100,
+    "side": "no",
+    "skew": 0.0
+   },
+   {
+    "edge": 0.015,
+    "event": "intent",
+    "exchange_id": "5",
+    "fair": 0.5,
+    "price": 0.455,
+    "quantity": 100,
+    "side": "yes",
+    "skew": 0.0
+   },
+   {
+    "edge": 0.015,
+    "event": "intent",
+    "exchange_id": "5",
+    "fair": 0.5,
+    "price": 0.455,
+    "quantity": 100,
+    "side": "no",
+    "skew": 0.0
+   },
+   {
+    "edge": 0.015,
+    "event": "placement",
+    "exchange_id": "1",
+    "fair": 0.5,
+    "order_id": "dry-1",
+    "price": 0.455,
+    "quantity": 100,
+    "side": "yes",
+    "skew": 0.0
+   },
+   {
+    "edge": 0.015,
+    "event": "placement",
+    "exchange_id": "1",
+    "fair": 0.5,
+    "order_id": "dry-2",
+    "price": 0.455,
+    "quantity": 100,
+    "side": "no",
+    "skew": 0.0
+   },
+   {
+    "edge": 0.015,
+    "event": "placement",
+    "exchange_id": "3",
+    "fair": 0.5,
+    "order_id": "dry-3",
+    "price": 0.455,
+    "quantity": 100,
+    "side": "yes",
+    "skew": 0.0
+   },
+   {
+    "edge": 0.015,
+    "event": "placement",
+    "exchange_id": "3",
+    "fair": 0.5,
+    "order_id": "dry-4",
+    "price": 0.455,
+    "quantity": 100,
+    "side": "no",
+    "skew": 0.0
+   },
+   {
+    "edge": 0.015,
+    "event": "placement",
+    "exchange_id": "5",
+    "fair": 0.5,
+    "order_id": "dry-5",
+    "price": 0.455,
+    "quantity": 100,
+    "side": "yes",
+    "skew": 0.0
+   },
+   {
+    "edge": 0.015,
+    "event": "placement",
+    "exchange_id": "5",
+    "fair": 0.5,
+    "order_id": "dry-6",
+    "price": 0.455,
+    "quantity": 100,
+    "side": "no",
+    "skew": 0.0
+   },
+   {
+    "event": "requote",
+    "exchange_id": "1",
+    "no": 0.455,
+    "resting": {
+     "no": 0.455,
+     "yes": 0.455
+    },
+    "yes": 0.46
+   },
+   {
+    "edge": 0.015,
+    "event": "intent",
+    "exchange_id": "1",
+    "fair": 0.5,
+    "price": 0.46,
+    "quantity": 100,
+    "side": "yes",
+    "skew": 0.0
+   },
+   {
+    "edge": 0.015,
+    "event": "intent",
+    "exchange_id": "1",
+    "fair": 0.5,
+    "price": 0.455,
+    "quantity": 100,
+    "side": "no",
+    "skew": 0.0
+   },
+   {
+    "edge": 0.015,
+    "event": "placement",
+    "exchange_id": "1",
+    "fair": 0.5,
+    "order_id": "dry-7",
+    "price": 0.46,
+    "quantity": 100,
+    "side": "yes",
+    "skew": 0.0
+   },
+   {
+    "edge": 0.015,
+    "event": "placement",
+    "exchange_id": "1",
+    "fair": 0.5,
+    "order_id": "dry-8",
+    "price": 0.455,
+    "quantity": 100,
+    "side": "no",
+    "skew": 0.0
+   },
+   {
+    "event": "fill",
+    "exchange_id": "1",
+    "fill_id": "fill-1",
+    "net_shares": 60.0,
+    "order_id": "dry-7",
+    "price": 0.455,
+    "quantity": 60.0,
+    "side": "yes"
+   },
+   {
+    "block_s": 3600,
+    "event": "kill",
+    "exchange_id": "3"
+   },
+   {
+    "event": "requote",
+    "exchange_id": "1",
+    "no": 0.455,
+    "resting": {
+     "no": 0.455,
+     "yes": 0.46
+    },
+    "yes": 0.455
+   },
+   {
+    "edge": 0.015,
+    "event": "intent",
+    "exchange_id": "1",
+    "fair": 0.5,
+    "price": 0.455,
+    "quantity": 100,
+    "side": "yes",
+    "skew": 0.0
+   },
+   {
+    "edge": 0.015,
+    "event": "intent",
+    "exchange_id": "1",
+    "fair": 0.5,
+    "price": 0.455,
+    "quantity": 100,
+    "side": "no",
+    "skew": 0.0
+   },
+   {
+    "edge": 0.015,
+    "event": "placement",
+    "exchange_id": "1",
+    "fair": 0.5,
+    "order_id": "dry-9",
+    "price": 0.455,
+    "quantity": 100,
+    "side": "yes",
+    "skew": 0.0
+   },
+   {
+    "edge": 0.015,
+    "event": "placement",
+    "exchange_id": "1",
+    "fair": 0.5,
+    "order_id": "dry-10",
+    "price": 0.455,
+    "quantity": 100,
+    "side": "no",
+    "skew": 0.0
+   },
+   {
+    "block_s": 600,
+    "event": "jump",
+    "exchange_id": "5",
+    "fair": 0.56
+   },
+   {
+    "event": "withdraw",
+    "exchange_id": "5",
+    "reason": "blocked"
+   },
+   {
+    "event": "requote",
+    "exchange_id": "1",
+    "no": 0.455,
+    "resting": {
+     "no": 0.455,
+     "yes": 0.455
+    },
+    "yes": null
+   },
+   {
+    "edge": 0.015,
+    "event": "intent",
+    "exchange_id": "1",
+    "fair": 0.5,
+    "price": 0.455,
+    "quantity": 100,
+    "side": "no",
+    "skew": 0.02
+   },
+   {
+    "edge": 0.015,
+    "event": "placement",
+    "exchange_id": "1",
+    "fair": 0.5,
+    "order_id": "dry-11",
+    "price": 0.455,
+    "quantity": 100,
+    "side": "no",
+    "skew": 0.02
+   },
+   {
+    "event": "requote",
+    "exchange_id": "1",
+    "no": 0.455,
+    "resting": {
+     "no": 0.455
+    },
+    "yes": null
+   },
+   {
+    "edge": 0.015,
+    "event": "intent",
+    "exchange_id": "1",
+    "fair": 0.5,
+    "price": 0.455,
+    "quantity": 100,
+    "side": "no",
+    "skew": 0.02
+   },
+   {
+    "edge": 0.015,
+    "event": "placement",
+    "exchange_id": "1",
+    "fair": 0.5,
+    "order_id": "dry-12",
+    "price": 0.455,
+    "quantity": 100,
+    "side": "no",
+    "skew": 0.02
+   }
+  ],
+  "logs": [
+   {
+    "extra": {
+     "allowlist": null,
+     "dry_run_mode": "true",
+     "max_markets": 5,
+     "open_positions": 0,
+     "size": 100,
+     "virtual": true
+    },
+    "level": "INFO",
+    "message": "Quoter enabled"
+   },
+   {
+    "extra": {
+     "exchange_id": "2",
+     "fair": 0.97,
+     "reason": "tail"
+    },
+    "level": "DEBUG",
+    "message": "Quoter market skipped"
+   },
+   {
+    "extra": {
+     "exchange_id": "4",
+     "fair": 0.5,
+     "reason": "other spread 2 ticks < 3"
+    },
+    "level": "DEBUG",
+    "message": "Quoter market skipped"
+   },
+   {
+    "extra": {
+     "bid_no": 0.455,
+     "bid_yes": 0.455,
+     "edge": 0.015,
+     "exchange_id": "1",
+     "fair": 0.5,
+     "other_yes_ask": 0.55,
+     "other_yes_bid": 0.45,
+     "race_delta": 0.0,
+     "reason": null,
+     "skew": 0.0
+    },
+    "level": "DEBUG",
+    "message": "Quoter market"
+   },
+   {
+    "extra": {
+     "bid_no": 0.455,
+     "bid_yes": 0.455,
+     "edge": 0.015,
+     "exchange_id": "3",
+     "fair": 0.5,
+     "other_yes_ask": 0.55,
+     "other_yes_bid": 0.45,
+     "race_delta": 0.0,
+     "reason": null,
+     "skew": 0.0
+    },
+    "level": "DEBUG",
+    "message": "Quoter market"
+   },
+   {
+    "extra": {
+     "bid_no": 0.455,
+     "bid_yes": 0.455,
+     "edge": 0.015,
+     "exchange_id": "5",
+     "fair": 0.5,
+     "other_yes_ask": 0.55,
+     "other_yes_bid": 0.45,
+     "race_delta": 0.0,
+     "reason": null,
+     "skew": 0.0
+    },
+    "level": "DEBUG",
+    "message": "Quoter market"
+   },
+   {
+    "extra": {
+     "quotes": 6
+    },
+    "level": "DEBUG",
+    "message": "Quoter: virtual quotes"
+   },
+   {
+    "extra": {
+     "active_quotes": 6,
+     "blocked_sides": {},
+     "cancels": 0,
+     "cycles": 1,
+     "fills": 0,
+     "interval_s": 1000.0,
+     "killed": 0,
+     "markets": [
+      "1",
+      "3",
+      "5"
+     ],
+     "placed": 0,
+     "requotes": 0,
+     "skipped_markets": {
+      "other spread 2 ticks < 3": 1,
+      "tail": 1
+     },
+     "virtual": true
+    },
+    "level": "INFO",
+    "message": "Quoter summary"
+   },
+   {
+    "extra": {
+     "exchange_id": "2",
+     "fair": 0.97,
+     "reason": "tail"
+    },
+    "level": "DEBUG",
+    "message": "Quoter market skipped"
+   },
+   {
+    "extra": {
+     "exchange_id": "4",
+     "fair": 0.5,
+     "reason": "other spread 2 ticks < 3"
+    },
+    "level": "DEBUG",
+    "message": "Quoter market skipped"
+   },
+   {
+    "extra": {
+     "bid_no": 0.455,
+     "bid_yes": 0.46,
+     "edge": 0.015,
+     "exchange_id": "1",
+     "fair": 0.5,
+     "other_yes_ask": 0.55,
+     "other_yes_bid": 0.455,
+     "race_delta": 0.0,
+     "reason": null,
+     "skew": 0.0
+    },
+    "level": "DEBUG",
+    "message": "Quoter market"
+   },
+   {
+    "extra": {
+     "bid_no": 0.455,
+     "bid_yes": 0.455,
+     "edge": 0.015,
+     "exchange_id": "3",
+     "fair": 0.5,
+     "other_yes_ask": 0.55,
+     "other_yes_bid": 0.45,
+     "race_delta": 0.0,
+     "reason": null,
+     "skew": 0.0
+    },
+    "level": "DEBUG",
+    "message": "Quoter market"
+   },
+   {
+    "extra": {
+     "bid_no": 0.455,
+     "bid_yes": 0.455,
+     "edge": 0.015,
+     "exchange_id": "5",
+     "fair": 0.5,
+     "other_yes_ask": 0.55,
+     "other_yes_bid": 0.45,
+     "race_delta": 0.0,
+     "reason": null,
+     "skew": 0.0
+    },
+    "level": "DEBUG",
+    "message": "Quoter market"
+   },
+   {
+    "extra": {
+     "quotes": 2
+    },
+    "level": "DEBUG",
+    "message": "Quoter: virtual quotes"
+   },
+   {
+    "extra": {
+     "exchange_id": "2",
+     "fair": 0.97,
+     "reason": "tail"
+    },
+    "level": "DEBUG",
+    "message": "Quoter market skipped"
+   },
+   {
+    "extra": {
+     "exchange_id": "4",
+     "fair": 0.5,
+     "reason": "other spread 2 ticks < 3"
+    },
+    "level": "DEBUG",
+    "message": "Quoter market skipped"
+   },
+   {
+    "extra": {
+     "bid_no": 0.455,
+     "bid_yes": 0.46,
+     "edge": 0.015,
+     "exchange_id": "1",
+     "fair": 0.5,
+     "other_yes_ask": 0.55,
+     "other_yes_bid": 0.455,
+     "race_delta": 0.0,
+     "reason": null,
+     "skew": 0.0
+    },
+    "level": "DEBUG",
+    "message": "Quoter market"
+   },
+   {
+    "extra": {
+     "bid_no": 0.455,
+     "bid_yes": 0.455,
+     "edge": 0.015,
+     "exchange_id": "3",
+     "fair": 0.5,
+     "other_yes_ask": 0.55,
+     "other_yes_bid": 0.45,
+     "race_delta": 0.0,
+     "reason": null,
+     "skew": 0.0
+    },
+    "level": "DEBUG",
+    "message": "Quoter market"
+   },
+   {
+    "extra": {
+     "bid_no": 0.455,
+     "bid_yes": 0.455,
+     "edge": 0.015,
+     "exchange_id": "5",
+     "fair": 0.5,
+     "other_yes_ask": 0.55,
+     "other_yes_bid": 0.45,
+     "race_delta": 0.0,
+     "reason": null,
+     "skew": 0.0
+    },
+    "level": "DEBUG",
+    "message": "Quoter market"
+   },
+   {
+    "extra": {
+     "block_s": 3600,
+     "exchange_id": "3",
+     "fills": 3,
+     "threshold_ticks": -2.0
+    },
+    "level": "WARNING",
+    "message": "Quoter market killed: consecutive adverse markouts"
+   },
+   {
+    "extra": {
+     "exchange_id": "2",
+     "fair": 0.97,
+     "reason": "tail"
+    },
+    "level": "DEBUG",
+    "message": "Quoter market skipped"
+   },
+   {
+    "extra": {
+     "exchange_id": "3",
+     "fair": 0.5,
+     "reason": "blocked"
+    },
+    "level": "DEBUG",
+    "message": "Quoter market skipped"
+   },
+   {
+    "extra": {
+     "exchange_id": "4",
+     "fair": 0.5,
+     "reason": "other spread 2 ticks < 3"
+    },
+    "level": "DEBUG",
+    "message": "Quoter market skipped"
+   },
+   {
+    "extra": {
+     "bid_no": 0.455,
+     "bid_yes": 0.455,
+     "edge": 0.015,
+     "exchange_id": "1",
+     "fair": 0.5,
+     "other_yes_ask": 0.55,
+     "other_yes_bid": 0.45,
+     "race_delta": 0.0,
+     "reason": null,
+     "skew": 0.0
+    },
+    "level": "DEBUG",
+    "message": "Quoter market"
+   },
+   {
+    "extra": {
+     "bid_no": 0.455,
+     "bid_yes": 0.455,
+     "edge": 0.015,
+     "exchange_id": "5",
+     "fair": 0.5,
+     "other_yes_ask": 0.55,
+     "other_yes_bid": 0.45,
+     "race_delta": 0.0,
+     "reason": null,
+     "skew": 0.0
+    },
+    "level": "DEBUG",
+    "message": "Quoter market"
+   },
+   {
+    "extra": {
+     "quotes": 2
+    },
+    "level": "DEBUG",
+    "message": "Quoter: virtual quotes"
+   },
+   {
+    "extra": {
+     "block_s": 600,
+     "exchange_id": "5",
+     "fair": 0.56,
+     "history": [
+      [
+       1800000030.0,
+       0.5
+      ],
+      [
+       1800000045.0,
+       0.5
+      ]
+     ]
+    },
+    "level": "INFO",
+    "message": "Quoter jump guard"
+   },
+   {
+    "extra": {
+     "exchange_id": "2",
+     "fair": 0.97,
+     "reason": "tail"
+    },
+    "level": "DEBUG",
+    "message": "Quoter market skipped"
+   },
+   {
+    "extra": {
+     "exchange_id": "3",
+     "fair": 0.5,
+     "reason": "blocked"
+    },
+    "level": "DEBUG",
+    "message": "Quoter market skipped"
+   },
+   {
+    "extra": {
+     "exchange_id": "4",
+     "fair": 0.5,
+     "reason": "other spread 2 ticks < 3"
+    },
+    "level": "DEBUG",
+    "message": "Quoter market skipped"
+   },
+   {
+    "extra": {
+     "exchange_id": "5",
+     "fair": 0.56,
+     "reason": "blocked"
+    },
+    "level": "DEBUG",
+    "message": "Quoter market skipped"
+   },
+   {
+    "extra": {
+     "exchange_id": "5",
+     "reason": "blocked"
+    },
+    "level": "INFO",
+    "message": "Quoter quotes withdrawn"
+   },
+   {
+    "extra": {
+     "bid_no": 0.455,
+     "bid_yes": null,
+     "edge": 0.015,
+     "exchange_id": "1",
+     "fair": 0.5,
+     "other_yes_ask": 0.55,
+     "other_yes_bid": 0.45,
+     "race_delta": 400.0,
+     "reason": "delta cap: yes not quoted",
+     "skew": 0.02
+    },
+    "level": "DEBUG",
+    "message": "Quoter market"
+   },
+   {
+    "extra": {
+     "quotes": 1
+    },
+    "level": "DEBUG",
+    "message": "Quoter: virtual quotes"
+   },
+   {
+    "extra": {
+     "active_quotes": 1,
+     "blocked_sides": {
+      "delta": 1
+     },
+     "cancels": 5,
+     "cycles": 4,
+     "fills": 1,
+     "interval_s": 60.0,
+     "killed": 1,
+     "markets": [
+      "1"
+     ],
+     "placed": 0,
+     "requotes": 3,
+     "skipped_markets": {
+      "blocked": 2,
+      "other spread 2 ticks < 3": 1,
+      "tail": 1
+     },
+     "virtual": true
+    },
+    "level": "INFO",
+    "message": "Quoter summary"
+   },
+   {
+    "extra": {
+     "exchange_id": "2",
+     "fair": 0.97,
+     "reason": "tail"
+    },
+    "level": "DEBUG",
+    "message": "Quoter market skipped"
+   },
+   {
+    "extra": {
+     "exchange_id": "3",
+     "fair": 0.5,
+     "reason": "blocked"
+    },
+    "level": "DEBUG",
+    "message": "Quoter market skipped"
+   },
+   {
+    "extra": {
+     "exchange_id": "4",
+     "fair": 0.5,
+     "reason": "other spread 2 ticks < 3"
+    },
+    "level": "DEBUG",
+    "message": "Quoter market skipped"
+   },
+   {
+    "extra": {
+     "exchange_id": "5",
+     "fair": 0.56,
+     "reason": "blocked"
+    },
+    "level": "DEBUG",
+    "message": "Quoter market skipped"
+   },
+   {
+    "extra": {
+     "bid_no": 0.455,
+     "bid_yes": null,
+     "edge": 0.015,
+     "exchange_id": "1",
+     "fair": 0.5,
+     "other_yes_ask": 0.55,
+     "other_yes_bid": 0.45,
+     "race_delta": 400.0,
+     "reason": "delta cap: yes not quoted",
+     "skew": 0.02
+    },
+    "level": "DEBUG",
+    "message": "Quoter market"
+   },
+   {
+    "extra": {
+     "exchange_id": "2",
+     "fair": 0.97,
+     "reason": "tail"
+    },
+    "level": "DEBUG",
+    "message": "Quoter market skipped"
+   },
+   {
+    "extra": {
+     "exchange_id": "3",
+     "fair": 0.5,
+     "reason": "blocked"
+    },
+    "level": "DEBUG",
+    "message": "Quoter market skipped"
+   },
+   {
+    "extra": {
+     "exchange_id": "4",
+     "fair": 0.5,
+     "reason": "other spread 2 ticks < 3"
+    },
+    "level": "DEBUG",
+    "message": "Quoter market skipped"
+   },
+   {
+    "extra": {
+     "exchange_id": "5",
+     "fair": 0.5,
+     "reason": "blocked"
+    },
+    "level": "DEBUG",
+    "message": "Quoter market skipped"
+   },
+   {
+    "extra": {
+     "bid_no": 0.455,
+     "bid_yes": null,
+     "edge": 0.015,
+     "exchange_id": "1",
+     "fair": 0.5,
+     "other_yes_ask": 0.55,
+     "other_yes_bid": 0.45,
+     "race_delta": 400.0,
+     "reason": "delta cap: yes not quoted",
+     "skew": 0.02
+    },
+    "level": "DEBUG",
+    "message": "Quoter market"
+   },
+   {
+    "extra": {
+     "quotes": 1
+    },
+    "level": "DEBUG",
+    "message": "Quoter: virtual quotes"
+   },
+   {
+    "extra": {
+     "active_quotes": 1,
+     "blocked_sides": {
+      "delta": 2
+     },
+     "cancels": 1,
+     "cycles": 2,
+     "fills": 0,
+     "interval_s": 140.0,
+     "killed": 0,
+     "markets": [
+      "1"
+     ],
+     "placed": 0,
+     "requotes": 1,
+     "skipped_markets": {
+      "blocked": 2,
+      "other spread 2 ticks < 3": 1,
+      "tail": 1
+     },
+     "virtual": true
+    },
+    "level": "INFO",
+    "message": "Quoter summary"
+   }
+  ],
+  "positions": {
+   "1": {
+    "avg_yes": 0.455,
+    "exchange_id": "1",
+    "realized": 0.0,
+    "shares": 60.0
+   }
+  }
+ }
+}

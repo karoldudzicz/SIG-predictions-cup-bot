@@ -1,0 +1,9 @@
+aiohttp
+websockets
+python-dotenv
+pydantic
+tenacity
+feedparser
+numpy
+pytest
+realtime
